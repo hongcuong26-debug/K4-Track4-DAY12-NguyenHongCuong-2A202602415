@@ -1,0 +1,41 @@
+{
+  "student": {
+    "student_id": "2A202602415",
+    "split_seed": 8656,
+    "model_seed": 3697,
+    "v_ego": 10.0
+  },
+  "source": "Re-evaluation of the five unchanged work/models/percfix_*.npz checkpoints on the same held-out windows using models.l2_summary; no retraining.",
+  "per_seed": [
+    {
+      "seed": 3697,
+      "all": 0.8263938426971436,
+      "brake_slice": 0.9817377924919128,
+      "slice_share": 0.046325677621370756
+    },
+    {
+      "seed": 3698,
+      "all": 0.8132009506225586,
+      "brake_slice": 0.9860684871673584,
+      "slice_share": 0.046325677621370756
+    },
+    {
+      "seed": 3699,
+      "all": 0.8122968077659607,
+      "brake_slice": 0.9693966507911682,
+      "slice_share": 0.046325677621370756
+    },
+    {
+      "seed": 3700,
+      "all": 0.793774425983429,
+      "brake_slice": 0.9983881115913391,
+      "slice_share": 0.046325677621370756
+    },
+    {
+      "seed": 3701,
+      "all": 0.8231726884841919,
+      "brake_slice": 0.9805920720100403,
+      "slice_share": 0.046325677621370756
+    }
+  ]
+}
